@@ -1,0 +1,231 @@
+{
+  "transaction": {
+    "name": "Meridian Industries Inc. — Senior Secured Credit Facilities",
+    "package_ref": "SYN-2024-0047-MERID",
+    "arranger": "Westbridge Capital Markets LLC",
+    "date": "2024-01-31",
+    "status": "FINAL — EXECUTED",
+    "total_committed_amount_usd": 475000000
+  },
+  "borrower": {
+    "legal_name": "Meridian Industries, Inc.",
+    "jurisdiction": "Delaware corporation",
+    "incorporation_number": "77411-DE",
+    "address": "3300 Industrial Pkwy, Suite 1900, Houston, TX 77019",
+    "ein": "47-3329104",
+    "naics_code": "325188",
+    "fiscal_year_end": "December 31",
+    "auditor": "Deloitte & Touche LLP",
+    "legal_counsel": "Skadden, Arps, Slate, Meagher & Flom LLP"
+  },
+  "guarantors": [
+    {
+      "name": "Meridian Holdings Group, LLC",
+      "role": "Parent Guarantor",
+      "ein": "82-1149357",
+      "jurisdiction": "Delaware LLC"
+    },
+    {
+      "name": "Meridian Chemical Subsidiary Corp.",
+      "role": "Subsidiary Guarantor",
+      "ein": "61-7784312",
+      "jurisdiction": "Texas corporation"
+    },
+    {
+      "name": "Meridian Logistics Partners LP",
+      "role": "Subsidiary Guarantor",
+      "ein": "33-9928471",
+      "jurisdiction": "Delaware LP"
+    }
+  ],
+  "tranches": [
+    {
+      "name": "Tranche A",
+      "type": "Term Loan A (TLA)",
+      "commitment_usd": 175000000,
+      "maturity_date": "2029-01-31",
+      "interest_rate_spread_percent": 2.25,
+      "sofr_floor_percent": 0.50,
+      "origination_fee_percent": 1.00,
+      "amortization_description": "Quarterly; 5% Year 1-2, 10% Year 3-4, 50% Year 5 (Bullet)"
+    },
+    {
+      "name": "Tranche B",
+      "type": "Term Loan B (TLB)",
+      "commitment_usd": 200000000,
+      "maturity_date": "2031-01-31",
+      "interest_rate_spread_percent": 3.50,
+      "sofr_floor_percent": 1.00,
+      "origination_fee_percent": 2.00,
+      "amortization_description": "1% per annum (quarterly); bullet at maturity"
+    },
+    {
+      "name": "Tranche C",
+      "type": "Revolving Credit Facility (RCF)",
+      "commitment_usd": 100000000,
+      "maturity_date": "2029-01-31",
+      "interest_rate_spread_percent": 2.00,
+      "sofr_floor_percent": 0.50,
+      "origination_fee_percent": 0.50,
+      "amortization_description": "Revolving; no amortization"
+    }
+  ],
+  "syndicate_lenders": [
+    { "institution": "Westbridge Capital Markets LLC",    "tla_commitment_usd_millions": 43.75, "tlb_commitment_usd_millions": 50.00, "rcf_commitment_usd_millions": 25.00, "total_commitment_usd_millions": 118.75, "contact_name": "Robert A. Finch",        "aba_routing": "021000089" },
+    { "institution": "Pacific Northern Bank, N.A.",       "tla_commitment_usd_millions": 35.00, "tlb_commitment_usd_millions": 40.00, "rcf_commitment_usd_millions": 20.00, "total_commitment_usd_millions": 95.00,  "contact_name": "Diana Chu",              "aba_routing": "121000248" },
+    { "institution": "Great Lakes Investment Corp",       "tla_commitment_usd_millions": 26.25, "tlb_commitment_usd_millions": 30.00, "rcf_commitment_usd_millions": 15.00, "total_commitment_usd_millions": 71.25,  "contact_name": "Thomas Gruber",          "aba_routing": "071000013" },
+    { "institution": "Northstar Credit Partners LP",      "tla_commitment_usd_millions": 26.25, "tlb_commitment_usd_millions": 30.00, "rcf_commitment_usd_millions": 15.00, "total_commitment_usd_millions": 71.25,  "contact_name": "Ananya Krishnamurthy",   "aba_routing": "026009610" },
+    { "institution": "Southfield Institutional Fund II",  "tla_commitment_usd_millions": 17.50, "tlb_commitment_usd_millions": 25.00, "rcf_commitment_usd_millions": 12.50, "total_commitment_usd_millions": 55.00,  "contact_name": "Emil Novotny",           "aba_routing": "044000024" },
+    { "institution": "Cornerstone Assurance Group",       "tla_commitment_usd_millions": 17.50, "tlb_commitment_usd_millions": 15.00, "rcf_commitment_usd_millions": 7.50,  "total_commitment_usd_millions": 40.00,  "contact_name": "Brenda Okafor",          "aba_routing": "021200339" },
+    { "institution": "Halcyon Bridge Mezzanine Fund",     "tla_commitment_usd_millions": 8.75,  "tlb_commitment_usd_millions": 10.00, "rcf_commitment_usd_millions": 5.00,  "total_commitment_usd_millions": 23.75,  "contact_name": "Yuki Tanaka",            "aba_routing": "026009610" }
+  ],
+  "financial_covenants": {
+    "leverage_ratio_schedule": [
+      { "test_period_end": "2024-03-31", "maximum_leverage_ratio": 6.50 },
+      { "test_period_end": "2024-06-30", "maximum_leverage_ratio": 6.25 },
+      { "test_period_end": "2024-09-30", "maximum_leverage_ratio": 6.00 },
+      { "test_period_end": "2024-12-31", "maximum_leverage_ratio": 5.75 },
+      { "test_period_end": "2025-03-31", "maximum_leverage_ratio": 5.50 },
+      { "test_period_end": "2025-06-30", "maximum_leverage_ratio": 5.25 },
+      { "test_period_end": "2025-09-30", "maximum_leverage_ratio": 5.00 },
+      { "test_period_end": "2025-12-31", "maximum_leverage_ratio": 4.75 }
+    ],
+    "interest_coverage_schedule": [
+      { "test_period_end": "2024-03-31", "minimum_coverage_ratio": 2.00 },
+      { "test_period_end": "2024-06-30", "minimum_coverage_ratio": 2.15 },
+      { "test_period_end": "2024-09-30", "minimum_coverage_ratio": 2.25 },
+      { "test_period_end": "2024-12-31", "minimum_coverage_ratio": 2.50 }
+    ],
+    "minimum_liquidity_usd": 25000000,
+    "max_annual_capex_usd": 35000000,
+    "capex_carryforward_percent": 50,
+    "ecf_sweep_high_leverage_percent": 75,
+    "ecf_sweep_mid_leverage_percent": 50,
+    "ecf_sweep_low_leverage_percent": 25,
+    "ecf_high_leverage_threshold": 4.0,
+    "ecf_low_leverage_threshold": 3.0
+  },
+  "collateral": {
+    "real_property": [
+      { "property_id": "RP-001", "address": "3300 Industrial Pkwy, Houston TX",           "appraised_value_usd": 28500000, "ltv_percent": 55 },
+      { "property_id": "RP-002", "address": "142 Refinery Rd, Baytown TX",                "appraised_value_usd": 41200000, "ltv_percent": 48 },
+      { "property_id": "RP-003", "address": "77 Chemical Dr, Beaumont TX",                "appraised_value_usd": 19800000, "ltv_percent": 61 },
+      { "property_id": "RP-004", "address": "500 Port Access Blvd, Corpus Christi TX",    "appraised_value_usd": 33600000, "ltv_percent": 52 },
+      { "property_id": "RP-005", "address": "88 Industrial Loop, Lake Charles LA",        "appraised_value_usd": 22100000, "ltv_percent": 58 }
+    ],
+    "total_real_property_value_usd": 145200000,
+    "equipment": [
+      { "asset_id": "EQ-1001", "description": "Distillation Column Unit #1",        "nbv_usd": 8400000,  "year_acquired": 2018 },
+      { "asset_id": "EQ-1002", "description": "Distillation Column Unit #2",        "nbv_usd": 7900000,  "year_acquired": 2019 },
+      { "asset_id": "EQ-1003", "description": "Reactor Vessel Array (x4)",          "nbv_usd": 12300000, "year_acquired": 2020 },
+      { "asset_id": "EQ-2001", "description": "Centrifugal Compressor System",      "nbv_usd": 4600000,  "year_acquired": 2017 },
+      { "asset_id": "EQ-2002", "description": "Heat Exchanger Network (12 units)",  "nbv_usd": 3800000,  "year_acquired": 2021 },
+      { "asset_id": "EQ-3001", "description": "Automated Packaging Line A",         "nbv_usd": 2200000,  "year_acquired": 2022 },
+      { "asset_id": "EQ-3002", "description": "Automated Packaging Line B",         "nbv_usd": 2100000,  "year_acquired": 2022 },
+      { "asset_id": "EQ-4001", "description": "Fleet Vehicles (18 units)",          "nbv_usd": 1800000,  "year_acquired": 0 }
+    ],
+    "total_equipment_nbv_usd": 43100000,
+    "eligible_receivables_usd": 62000000,
+    "eligible_inventory_usd": 28500000
+  },
+  "fees": {
+    "arrangement_fee_usd": 2375000,
+    "arrangement_fee_percent": 0.50,
+    "admin_agent_fee_annual_usd": 200000,
+    "syndication_agent_fee_usd": 150000,
+    "documentation_fee_usd": 75000,
+    "lc_issuance_fee_percent": 2.00,
+    "lc_fronting_fee_percent": 0.125,
+    "commitment_fee_rcf_percent": 0.375,
+    "amendment_fee_percent": 0.10,
+    "waiver_fee_minimum_usd": 25000,
+    "tlb_prepayment_premium_year1_percent": 2.00,
+    "tlb_prepayment_premium_year2_percent": 1.00
+  },
+  "tla_amortization": [
+    { "payment_date": "2024-04-30", "principal_usd": 2187500,   "balance_usd": 172812500 },
+    { "payment_date": "2024-07-31", "principal_usd": 2187500,   "balance_usd": 170625000 },
+    { "payment_date": "2024-10-31", "principal_usd": 2187500,   "balance_usd": 168437500 },
+    { "payment_date": "2025-01-31", "principal_usd": 2187500,   "balance_usd": 166250000 },
+    { "payment_date": "2025-04-30", "principal_usd": 2187500,   "balance_usd": 164062500 },
+    { "payment_date": "2025-07-31", "principal_usd": 2187500,   "balance_usd": 161875000 },
+    { "payment_date": "2025-10-31", "principal_usd": 2187500,   "balance_usd": 159687500 },
+    { "payment_date": "2026-01-31", "principal_usd": 2187500,   "balance_usd": 157500000 },
+    { "payment_date": "2026-04-30", "principal_usd": 4375000,   "balance_usd": 153125000 },
+    { "payment_date": "2026-07-31", "principal_usd": 4375000,   "balance_usd": 148750000 },
+    { "payment_date": "2026-10-31", "principal_usd": 4375000,   "balance_usd": 144375000 },
+    { "payment_date": "2027-01-31", "principal_usd": 4375000,   "balance_usd": 140000000 },
+    { "payment_date": "2027-04-30", "principal_usd": 4375000,   "balance_usd": 135625000 },
+    { "payment_date": "2027-07-31", "principal_usd": 4375000,   "balance_usd": 131250000 },
+    { "payment_date": "2027-10-31", "principal_usd": 4375000,   "balance_usd": 126875000 },
+    { "payment_date": "2028-01-31", "principal_usd": 4375000,   "balance_usd": 122500000 },
+    { "payment_date": "2028-04-30", "principal_usd": 4375000,   "balance_usd": 118125000 },
+    { "payment_date": "2028-07-31", "principal_usd": 4375000,   "balance_usd": 113750000 },
+    { "payment_date": "2028-10-31", "principal_usd": 4375000,   "balance_usd": 109375000 },
+    { "payment_date": "2029-01-31", "principal_usd": 109375000, "balance_usd": 0 }
+  ],
+  "tlb_amortization": [
+    { "payment_date": "2024-04-30", "principal_usd": 500000, "balance_usd": 199500000 },
+    { "payment_date": "2024-07-31", "principal_usd": 500000, "balance_usd": 199000000 },
+    { "payment_date": "2024-10-31", "principal_usd": 500000, "balance_usd": 198500000 },
+    { "payment_date": "2025-01-31", "principal_usd": 500000, "balance_usd": 198000000 },
+    { "payment_date": "2025-04-30", "principal_usd": 500000, "balance_usd": 197500000 },
+    { "payment_date": "2025-07-31", "principal_usd": 500000, "balance_usd": 197000000 },
+    { "payment_date": "2025-10-31", "principal_usd": 500000, "balance_usd": 196500000 },
+    { "payment_date": "2026-01-31", "principal_usd": 500000, "balance_usd": 196000000 },
+    { "payment_date": "2026-04-30", "principal_usd": 500000, "balance_usd": 195500000 },
+    { "payment_date": "2026-07-31", "principal_usd": 500000, "balance_usd": 195000000 },
+    { "payment_date": "2026-10-31", "principal_usd": 500000, "balance_usd": 194500000 },
+    { "payment_date": "2027-01-31", "principal_usd": 500000, "balance_usd": 194000000 },
+    { "payment_date": "2027-04-30", "principal_usd": 500000, "balance_usd": 193500000 },
+    { "payment_date": "2027-07-31", "principal_usd": 500000, "balance_usd": 193000000 },
+    { "payment_date": "2027-10-31", "principal_usd": 500000, "balance_usd": 192500000 },
+    { "payment_date": "2028-01-31", "principal_usd": 500000, "balance_usd": 192000000 },
+    { "payment_date": "2028-04-30", "principal_usd": 500000, "balance_usd": 191500000 },
+    { "payment_date": "2028-07-31", "principal_usd": 500000, "balance_usd": 191000000 },
+    { "payment_date": "2028-10-31", "principal_usd": 500000, "balance_usd": 190500000 },
+    { "payment_date": "2029-01-31", "principal_usd": 500000, "balance_usd": 190000000 },
+    { "payment_date": "2029-04-30", "principal_usd": 500000, "balance_usd": 189500000 },
+    { "payment_date": "2029-07-31", "principal_usd": 500000, "balance_usd": 189000000 },
+    { "payment_date": "2029-10-31", "principal_usd": 500000, "balance_usd": 188500000 },
+    { "payment_date": "2030-01-31", "principal_usd": 500000, "balance_usd": 188000000 },
+    { "payment_date": "2030-04-30", "principal_usd": 500000, "balance_usd": 187500000 },
+    { "payment_date": "2030-07-31", "principal_usd": 500000, "balance_usd": 187000000 },
+    { "payment_date": "2030-10-31", "principal_usd": 500000, "balance_usd": 186500000 },
+    { "payment_date": "2031-01-31", "principal_usd": 186500000, "balance_usd": 0 }
+  ],
+  "negative_covenants": {
+    "max_additional_indebtedness_usd": 10000000,
+    "restricted_payments_leverage_threshold": 3.5,
+    "max_asset_sale_individual_usd": 5000000,
+    "max_asset_sale_aggregate_annual_usd": 15000000,
+    "max_acquisition_without_consent_usd": 25000000
+  },
+  "events_of_default": {
+    "payment_grace_period_days": 3,
+    "covenant_cure_period_days": 30,
+    "cross_default_threshold_usd": 10000000,
+    "material_judgment_threshold_usd": 15000000,
+    "material_judgment_unsatisfied_days": 30
+  },
+  "closing": {
+    "closing_date": "2024-01-31",
+    "tla_disbursement_usd": 175000000,
+    "tlb_disbursement_usd": 200000000,
+    "total_upfront_fees_usd": 6750000,
+    "net_proceeds_usd": 368250000,
+    "disbursement_aba": "021000089",
+    "disbursement_account": "330144887 7"
+  },
+  "administrative_agent": {
+    "name": "Westbridge Capital Markets LLC",
+    "address": "12 Financial Square, Floor 22, New York, NY 10005",
+    "contact_name": "Robert A. Finch",
+    "contact_phone": "(212) 555-0199",
+    "aba_routing": "021000089",
+    "account_number": "9934112200",
+    "governing_law": "State of New York",
+    "jurisdiction": "Southern District of New York (SDNY)",
+    "jury_trial_waiver": true
+  }
+}

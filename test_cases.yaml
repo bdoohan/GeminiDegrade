@@ -25,3 +25,9 @@ test_cases:
     document: "documents/hospital_discharge_001.txt"
     schema: "schemas/hospital_discharge_schema.json"
     ground_truth: "ground_truth/hospital_discharge_001.json"
+
+  - id: "unabridged_difficult_financial"
+    description: "Syndicated loan package — long doc, 200+ fields, covenants/collateral/fees buried in middle (lost-in-middle regression target)"
+    document: "documents/unabridged_difficult_financial.txt"
+    schema: "schemas/unabridged_difficult_financial_schema.json"
+    ground_truth: "ground_truth/unabridged_difficult_financial.json"

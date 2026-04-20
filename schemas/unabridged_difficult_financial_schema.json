@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SyndicatedLoanPackage",
+  "type": "object",
+  "properties": {
+    "transaction": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "package_ref": { "type": "string" },
+        "arranger": { "type": "string" },
+        "date": { "type": "string", "description": "YYYY-MM-DD" },
+        "status": { "type": "string" },
+        "total_committed_amount_usd": { "type": "number" }
+      }
+    },
+    "borrower": {
+      "type": "object",
+      "properties": {
+        "legal_name": { "type": "string" },
+        "jurisdiction": { "type": "string" },
+        "incorporation_number": { "type": "string" },
+        "address": { "type": "string" },
+        "ein": { "type": "string" },
+        "naics_code": { "type": "string" },
+        "fiscal_year_end": { "type": "string" },
+        "auditor": { "type": "string" },
+        "legal_counsel": { "type": "string" }
+      }
+    },
+    "guarantors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "role": { "type": "string" },
+          "ein": { "type": "string" },
+          "jurisdiction": { "type": "string" }
+        }
+      }
+    },
+    "tranches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "commitment_usd": { "type": "number" },
+          "maturity_date": { "type": "string", "description": "YYYY-MM-DD" },
+          "interest_rate_spread_percent": { "type": "number" },
+          "sofr_floor_percent": { "type": "number" },
+          "origination_fee_percent": { "type": "number" },
+          "amortization_description": { "type": "string" }
+        }
+      }
+    },
+    "syndicate_lenders": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "institution": { "type": "string" },
+          "tla_commitment_usd_millions": { "type": "number" },
+          "tlb_commitment_usd_millions": { "type": "number" },
+          "rcf_commitment_usd_millions": { "type": "number" },
+          "total_commitment_usd_millions": { "type": "number" },
+          "contact_name": { "type": "string" },
+          "aba_routing": { "type": "string" }
+        }
+      }
+    },
+    "financial_covenants": {
+      "type": "object",
+      "description": "BURIED IN MIDDLE — primary regression target",
+      "properties": {
+        "leverage_ratio_schedule": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "test_period_end": { "type": "string", "description": "YYYY-MM-DD" },
+              "maximum_leverage_ratio": { "type": "number" }
+            }
+          }
+        },
+        "interest_coverage_schedule": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "test_period_end": { "type": "string", "description": "YYYY-MM-DD" },
+              "minimum_coverage_ratio": { "type": "number" }
+            }
+          }
+        },
+        "minimum_liquidity_usd": { "type": "number" },
+        "max_annual_capex_usd": { "type": "number" },
+        "capex_carryforward_percent": { "type": "number" },
+        "ecf_sweep_high_leverage_percent": { "type": "number" },
+        "ecf_sweep_mid_leverage_percent": { "type": "number" },
+        "ecf_sweep_low_leverage_percent": { "type": "number" },
+        "ecf_high_leverage_threshold": { "type": "number" },
+        "ecf_low_leverage_threshold": { "type": "number" }
+      }
+    },
+    "collateral": {
+      "type": "object",
+      "properties": {
+        "real_property": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "property_id": { "type": "string" },
+              "address": { "type": "string" },
+              "appraised_value_usd": { "type": "number" },
+              "ltv_percent": { "type": "integer" }
+            }
+          }
+        },
+        "total_real_property_value_usd": { "type": "number" },
+        "equipment": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "asset_id": { "type": "string" },
+              "description": { "type": "string" },
+              "nbv_usd": { "type": "number" },
+              "year_acquired": { "type": "integer" }
+            }
+          }
+        },
+        "total_equipment_nbv_usd": { "type": "number" },
+        "eligible_receivables_usd": { "type": "number" },
+        "eligible_inventory_usd": { "type": "number" }
+      }
+    },
+    "fees": {
+      "type": "object",
+      "properties": {
+        "arrangement_fee_usd": { "type": "number" },
+        "arrangement_fee_percent": { "type": "number" },
+        "admin_agent_fee_annual_usd": { "type": "number" },
+        "syndication_agent_fee_usd": { "type": "number" },
+        "documentation_fee_usd": { "type": "number" },
+        "lc_issuance_fee_percent": { "type": "number" },
+        "lc_fronting_fee_percent": { "type": "number" },
+        "commitment_fee_rcf_percent": { "type": "number" },
+        "amendment_fee_percent": { "type": "number" },
+        "waiver_fee_minimum_usd": { "type": "number" },
+        "tlb_prepayment_premium_year1_percent": { "type": "number" },
+        "tlb_prepayment_premium_year2_percent": { "type": "number" }
+      }
+    },
+    "tla_amortization": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "payment_date": { "type": "string", "description": "YYYY-MM-DD" },
+          "principal_usd": { "type": "number" },
+          "balance_usd": { "type": "number" }
+        }
+      }
+    },
+    "tlb_amortization": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "payment_date": { "type": "string", "description": "YYYY-MM-DD" },
+          "principal_usd": { "type": "number" },
+          "balance_usd": { "type": "number" }
+        }
+      }
+    },
+    "negative_covenants": {
+      "type": "object",
+      "properties": {
+        "max_additional_indebtedness_usd": { "type": "number" },
+        "restricted_payments_leverage_threshold": { "type": "number" },
+        "max_asset_sale_individual_usd": { "type": "number" },
+        "max_asset_sale_aggregate_annual_usd": { "type": "number" },
+        "max_acquisition_without_consent_usd": { "type": "number" }
+      }
+    },
+    "events_of_default": {
+      "type": "object",
+      "properties": {
+        "payment_grace_period_days": { "type": "integer" },
+        "covenant_cure_period_days": { "type": "integer" },
+        "cross_default_threshold_usd": { "type": "number" },
+        "material_judgment_threshold_usd": { "type": "number" },
+        "material_judgment_unsatisfied_days": { "type": "integer" }
+      }
+    },
+    "closing": {
+      "type": "object",
+      "properties": {
+        "closing_date": { "type": "string", "description": "YYYY-MM-DD" },
+        "tla_disbursement_usd": { "type": "number" },
+        "tlb_disbursement_usd": { "type": "number" },
+        "total_upfront_fees_usd": { "type": "number" },
+        "net_proceeds_usd": { "type": "number" },
+        "disbursement_aba": { "type": "string" },
+        "disbursement_account": { "type": "string" }
+      }
+    },
+    "administrative_agent": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "contact_name": { "type": "string" },
+        "contact_phone": { "type": "string" },
+        "aba_routing": { "type": "string" },
+        "account_number": { "type": "string" },
+        "governing_law": { "type": "string" },
+        "jurisdiction": { "type": "string" },
+        "jury_trial_waiver": { "type": "boolean" }
+      }
+    }
+  },
+  "required": [
+    "transaction", "borrower", "tranches", "syndicate_lenders",
+    "financial_covenants", "collateral", "fees",
+    "tla_amortization", "tlb_amortization", "closing"
+  ]
+}
