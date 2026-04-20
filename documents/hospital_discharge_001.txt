@@ -1,0 +1,196 @@
+RIVERSIDE GENERAL HOSPlTAL
+2200 Medlcal Center Pkwy  |  Sacramento, CA  958 1 9
+Phone: (91 6) 555-22 00   Fax: (91 6) 555-22 01
+NPI: 1 2345 67890
+
+===============================================================
+          DlSCHARGE SUMMARY — CONFlDENTlAL
+===============================================================
+
+PATlENT:         NAKAMURA, Hiroshi T.
+MRN:             RGH-00 1 1 47 82
+DOB:             09 / 1 2 / 1 958    Age: 65    Sex: M
+ADMlSSlON DATE:  March 3, 2024     1 4:37
+DlSCHARGE DATE:  March 9, 2024     1 0: 1 5
+LOS:             6 days
+ADMlT TYPE:      Emergency
+ADMlT SOURCE:    Emergency Department
+
+---------------------------------------------------------------
+ATTEND lNG PHYSlClAN:
+  Dr. Priya Venkataraman, MD   NPI: 987654321 0
+  Dept: Cardiology / lCU Stepdown
+  Phone: (91 6) 555-34 56
+
+CONSULTlNG PHYSlClANS:
+  1 . Dr. Marcus O. Brecht, MD  — Nephrology   NPI: 11 223344 55
+  2. Dr. Fatima Al-Rashid, MD   — Endocrinology NPI: 99887766 55
+  3. Dr. Len Kowalczyk, PA-C    — Hospitalist   NPI: 33445566 77
+
+---------------------------------------------------------------
+lNSURANCE
+  Primary:    Medicare Part A & B
+  Member lD:  1EG4-TE5-MK72
+  Group:      N / A (Medicare)
+  Secondary:  AARP Supplemental (UnitedHealth)
+  Member lD:  UHC-AARP-8847231
+  Auth #:     AUTH-2024-039 1 4
+
+---------------------------------------------------------------
+ADMlSSlON DlAGNOSlS
+  Acute-onset chest pain with radiation to left arm,
+  diaphoresis, SOB. lnitial ECG showed ST-elevation in
+  leads ll, lll, aVF — concern for lnferior STEMl.
+
+---------------------------------------------------------------
+DlSCHARGE DlAGNOSlS (Principal + Secondary)
+
+  #1   lnferior STEMl (Primary)
+       lCD-10: l21 .1
+       Status: Resolved post-PCI
+
+  #2   Type 2 Diabetes Mellitus w/ Hyperglycemia
+       lCD-10: E11 .65
+       Status: Chronic, managed
+
+  #3   Stage 3a CKD (Baseline)
+       lCD-10: N18.3
+       Status: Chronic, stable at discharge
+
+  #4   Hypertensive Heart Disease
+       lCD-10: l11 .9
+       Status: Chronic
+
+  #5   Acute Kidney lnjury (resolved)
+       lCD-10: N17.9
+       Status: Resolved — Cr returned to baseline 1 .4 mg/dL
+
+  #6   Hospital-Acquired Hyponatremia
+       lCD-10: E87.1
+       Status: Resolved — Na 1 38 mEq/L at discharge
+
+  #7   Dyslipidemia
+       lCD-10: E78.5
+       Status: Chronic
+
+---------------------------------------------------------------
+PROCEDURES PERfORMED
+
+  Date        Procedure                          CPT       Surgeon
+  ----------- ---------------------------------- --------- --------------------
+  03 / 03 /24  Emergency Coronary Angiography     93454     Dr. Venkataraman
+  03 / 03 /24  Percutaneous Coronary lntervention 92928     Dr. Venkataraman
+               (Drug-Eluting Stent x1, RCA)
+  03 / 04 /24  Echocardiogram (TTE)               93306     Tech: M. Santos
+  03 / 05 /24  Renal Ultrasound                   76770     Tech: D. Lim
+  03 / 07 /24  Fasting Lipid Panel                80061     Lab: RGH Central
+  03 / 08 /24  HbA1c                              83036     Lab: RGH Central
+
+---------------------------------------------------------------
+HOSPITAL COURSE
+
+The patient is a 65 y/o male with PMH of T2DM, HTN, CKD3a,
+and dyslipidemia who presented via EMS with acute chest
+pain x 2 hours. ECG confirmed lnferior STEMl. Patient was
+taken emergently to the Cath Lab where angiography revealed
+1 00% occlusion of the proximal RCA. Successful PCI with DES
+placement was performed. Peak Troponin-l: 48.7 ng/mL.
+
+Post-PCI, patient was monitored in the CCU for 48 h.
+Creatinine trended up to 2.1 mg/dL on HOD2 (contrast
+nephropathy), but improved with IV hydration — 1 .4 mg/dL
+at discharge. Sodium nadir was 1 26 mEq/L (HOD3), corrected
+with fluid restriction.
+
+Blood glucose ranged 1 55–31 2 mg/dL during admission.
+Endocrinology adjusted insulin regimen. HbA1c: 8.9%.
+
+Discharged in stable condition with close outpatient follow-up.
+
+---------------------------------------------------------------
+LAB RESULTS — SELECTED (at or near discharge)
+
+  Test                   Result      Units       Ref Range         Flag
+  ---------------------- ----------- ----------- ----------------- ----
+  WBC                    7.8         x10^3/uL    4.5 – 11 .0       —
+  Hemoglobin             11 .2       g/dL        13.5 – 17.5       L
+  Hematocrit             33.8        %           41 – 53           L
+  Platelets              21 8        x10^3/uL    1 50 – 400        —
+  Sodium (Na)            1 38        mEq/L       1 36 – 1 45       —
+  Potassium (K)          4.1         mEq/L       3.5 – 5.0         —
+  Creatinine             1 .4        mg/dL       0.7 – 1 .2        H
+  BUN                    22          mg/dL       7 – 25            —
+  eGFR                   52          mL/min      > 60              L
+  Glucose (fasting)      1 42        mg/dL       70 – 99           H
+  HbA1c                  8.9         %           < 5.7             H
+  LDL                    1 38        mg/dL       < 1 00            H
+  HDL                    38          mg/dL       > 40              L
+  Triglycerides          21 4        mg/dL       < 1 50            H
+  Troponin-l (peak)      48.7        ng/mL       < 0.04            H
+  BNP                    41 2        pg/mL       < 1 00            H
+
+---------------------------------------------------------------
+VlTALS AT DlSCHARGE  (03 /09 /2024, 08:30)
+
+  BP:            1 22 / 74 mmHg
+  Heart Rate:    58 bpm (sinus rhythm)
+  Resp Rate:     1 6 /min
+  Temp:          98.4 F
+  O2 Sat:        97 % on room air
+  Weight:        84.3 kg
+  Height:        1 76 cm
+  BMl:           27.2 kg/m²
+
+---------------------------------------------------------------
+MEDlCATlONS AT DlSCHARGE
+
+  #   Drug                   Dose     Route   Freq          Refills  Notes
+  --- ---------------------- -------- ------- ------------- -------- --------------------------
+  1   Aspirin                81 mg    PO      Daily         PRN      Take with food. Do not stop
+  2   Ticagrelor (Brilinta)  90 mg    PO      Twice daily   3        DO NOT STOP — stent
+  3   Metoprolol Succinate   25 mg    PO      Daily         3        Take in AM
+  4   Lisinopril             5 mg     PO      Daily         3        Monitor BP
+  5   Atorvastatin           80 mg    PO      Daily (PM)    3        Avoid grapefruit
+  6   lsosorbide Mononitrate 30 mg    PO      Daily         1        Hold if SBP < 90
+  7   Furosemide             20 mg    PO      Daily x7d     0        Weigh daily; call if +3 lbs
+  8   lnsulin Glargine       1 8 U    SC      Nightly       3        Refrigerate
+  9   Metformin              500 mg   PO      Twice daily   3        Hold if Cr > 1 .8 or contrast
+  10  Omeprazole             20 mg    PO      Daily         2        GI protection w/ dual AP Rx
+
+---------------------------------------------------------------
+FOLLOW-UP APPOINTMENTS
+
+  Provider                          Specialty          Date / Time            Location
+  --------------------------------- ------------------ ---------------------- --------------------
+  Dr. Priya Venkataraman            Cardiology         March 21 , 2024 @ 9AM  RGH Heart Ctr Ste 4
+  Dr. Marcus Brecht                 Nephrology         March 26, 2024 @ 11AM  RGH Renal Clinic
+  Dr. Fatima Al-Rashid              Endocrinology      April 2, 2024 @ 2:30PM RGH Diabetes Ctr
+  Primary Care (Dr. J. Okonkwo)     Primary Care       March 1 8, 2024 @ 10AM 4 1 2 Oak St Clinic
+
+---------------------------------------------------------------
+DlSCHARGE lNSTRUCTlONS
+
+  Activity:    Cardiac rehab referral placed. No lifting > 1 0 lbs x4 wks.
+               Resume light walking; avoid strenuous activity until cleared
+               by cardiology.
+
+  Diet:        Cardiac / ADA diet. Low sodium (< 2g/day). Limit saturated
+               fat. Carbohydrate consistent diet (~45g/meal).
+
+  Wound Care:  Right radial access site (wrist). Keep dry x48h.
+               Watch for hematoma, pulsatile swelling — go to ED if noted.
+
+  Warning Sx:  RETURN TO ED lMMEDlATELY for: chest pain, SOB, left arm
+               pain, palpitations, syncope, or weight gain > 3 lbs overnight.
+
+  Monitoring:  Daily blood pressure and weight log. Blood glucose 2x/day.
+
+  Smoking:     Patient is a non-smoker. Counseled on secondhand smoke avoidance.
+
+---------------------------------------------------------------
+ATTENDlNG SlGNATURE:
+  Dr. Priya Venkataraman, MD    Date: 03 / 09 / 2024
+  Electronically signed via RGH EMR v4.2
+
+DlCTATED BY: Dr. Venkataraman     REVlEWED BY: Dr. Kowalczyk
+TRANSCRIBED: 03/09/2024  11 :42 AM

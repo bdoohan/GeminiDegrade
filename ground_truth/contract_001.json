@@ -1,0 +1,47 @@
+{
+  "effective_date": "2024-02-28",
+  "service_provider": {
+    "name": "NovaTech Solutions LLC",
+    "address": "78 Commerce Square, Floor 12, San Francisco, CA 94105",
+    "ein": "47-3329104"
+  },
+  "client": {
+    "name": "Meridian Retail Group, Inc.",
+    "address": "2200 Harbor Blvd, Building C, Costa Mesa, CA 92627",
+    "ein": "82-1149357"
+  },
+  "services": [
+    "Implementation and configuration of the NovaTech Inventory Platform v4.x",
+    "Data migration from Client's legacy SAP system",
+    "User training (up to 40 hours)",
+    "12 months post-go-live technical support (Tier 2)"
+  ],
+  "term_months": 24,
+  "termination_date": "2026-02-27",
+  "fees": {
+    "implementation_fee_usd": 85000.00,
+    "annual_license_fee_usd": 36000.00,
+    "monthly_support_retainer_usd": 4500.00,
+    "late_payment_rate_monthly_percent": 1.5,
+    "currency": "USD"
+  },
+  "governing_law_state": "California",
+  "dispute_resolution": "binding arbitration in San Francisco, CA",
+  "termination_notice_days": 90,
+  "termination_for_cause_notice_days": 10,
+  "confidentiality_period_years": 5,
+  "signatories": [
+    {
+      "party": "NovaTech Solutions LLC",
+      "name": "James T. Whitmore",
+      "title": "CEO",
+      "date": "2024-02-28"
+    },
+    {
+      "party": "Meridian Retail Group, Inc.",
+      "name": "Patricia L. Seo",
+      "title": "CFO",
+      "date": "2024-02-28"
+    }
+  ]
+}

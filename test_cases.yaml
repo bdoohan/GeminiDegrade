@@ -1,0 +1,27 @@
+# Each test case links a document → schema → ground truth.
+# Add new rows here to expand the eval suite without changing eval.py.
+
+test_cases:
+  - id: "invoice_001"
+    description: "Standard vendor invoice with 4 line items"
+    document: "documents/invoice_001.txt"
+    schema: "schemas/invoice_schema.json"
+    ground_truth: "ground_truth/invoice_001.json"
+
+  - id: "medical_form_001"
+    description: "Patient intake form with vitals, medications, allergies"
+    document: "documents/medical_form_001.txt"
+    schema: "schemas/medical_form_schema.json"
+    ground_truth: "ground_truth/medical_form_001.json"
+
+  - id: "contract_001"
+    description: "Software services agreement with fees and signatories"
+    document: "documents/contract_001.txt"
+    schema: "schemas/contract_schema.json"
+    ground_truth: "ground_truth/contract_001.json"
+
+  - id: "hospital_discharge_001"
+    description: "Complex hospital discharge summary — 7 diagnoses, 6 procedures, 16 labs, 10 meds, 4 follow-ups (100+ fields)"
+    document: "documents/hospital_discharge_001.txt"
+    schema: "schemas/hospital_discharge_schema.json"
+    ground_truth: "ground_truth/hospital_discharge_001.json"

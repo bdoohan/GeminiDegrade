@@ -1,0 +1,66 @@
+RIVERSIDE HEALTH NETWORK
+Patient lntake Form — Confidential
+
+================================================
+PATlENT lNFORMATlON
+================================================
+Last Name:   DELGADO              First Name:  Marco A.
+Date of Birth:  07 / 22 / 1 981   Sex:  M
+SSN (last 4):  **  **  7 7 4 1    MRN:  RHN-0039284
+Address:  890 Pinecrest Ave., Apt 2B
+          Portland, OR  972 1 5
+Phone (Home):  (503) 555-0 0 72
+Phone (Cell):  (503) 555-1 9 48
+Emergency Contact: Elena Delgado  (503) 555-2201  (Spouse)
+
+================================================
+lNSURANCE lNFORMATlON
+================================================
+Primary lnsurance:  BlueCross BlueShield of Oregon
+Member lD:  BCBS-OR-441872-M
+Group Number:  GRP-77234
+Policy Holder:  Marco A. Delgado     Relation:  Self
+Effective Date:  01 / 01 / 2024      Copay:  $30
+
+Secondary lnsurance:  N / A
+
+================================================
+CHlEF COMPLAlNT / REASON FOR VlSlT
+================================================
+Persistent lower back pain (6/10), onset approx. 3 weeks ago.
+Occasional numbness radiating to left leg. No trauma reported.
+
+================================================
+MEDICAL HlSTORY
+================================================
+Current Conditions:
+  [X] Type 2 Diabetes (diagnosed 201 5)
+  [X] Hypertension (diagnosed 201 8)
+  [ ] Asthma
+  [X] Hyperlipidemia
+
+Previous Surgeries:
+  - Appendectomy (2003, St. Vincent Hospital)
+
+Allergies:
+  - Penicillin  (Reaction: Hives)
+  - Sulfa drugs  (Reaction: Rash)
+
+================================================
+CURRENT MEDlCATlONS
+================================================
+  1. Metformin 500mg  — twice daily (morning / evening)
+  2. Lisinopril  10mg — once daily (morning)
+  3. Atorvastatin 20mg — once daily (evening)
+  4. lbuprofen 400mg  — as needed (back pain, started 2 weeks ago)
+
+================================================
+VlTALS (recorded by nurse)
+================================================
+Date / Time:  03 / 1 4 / 2024   09:22 AM
+BP:  1 38 / 88 mmHg       Pulse:  72 bpm
+Temp:  98.6 F              Weight:  21 4 lbs
+Height:  5'  1 1"           O2 Sat:  98%
+
+Provider: Dr. Anita Kapoor, MD         NPI: 1234567890
+Dept: Internal Medicine — Outpatient

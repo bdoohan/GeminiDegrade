@@ -1,0 +1,50 @@
+{
+  "vendor_name": "ACME SUPPLIES INC.",
+  "vendor_address": "123 Warehouse Blvd, Suite 400, Chicago, IL 60601",
+  "invoice_number": "INV-2024-00847",
+  "invoice_date": "2024-03-14",
+  "due_date": "2024-04-13",
+  "po_number": "PO-GT-3392",
+  "bill_to": {
+    "company": "Greenleaf Tech Solutions",
+    "address": "456 Innovation Dr, Austin, TX 78701",
+    "contact_name": "Sarah M. Johnson"
+  },
+  "line_items": [
+    {
+      "sku": "SKU-1042",
+      "description": "Thermal Print Paper Rolls (2.25\" x 85', case of 50)",
+      "quantity": 50,
+      "unit_price": 12.50,
+      "amount": 625.00
+    },
+    {
+      "sku": "SKU-2201",
+      "description": "USB-C Hub 7-Port",
+      "quantity": 12,
+      "unit_price": 34.99,
+      "amount": 419.88
+    },
+    {
+      "sku": "SKU-3309",
+      "description": "Laser Toner Cartridge HP Compatible 85A",
+      "quantity": 8,
+      "unit_price": 67.50,
+      "amount": 540.00
+    },
+    {
+      "sku": "SKU-4417",
+      "description": "Anti-static Bubble Wrap (Roll 24\"x250')",
+      "quantity": 3,
+      "unit_price": 145.00,
+      "amount": 435.00
+    }
+  ],
+  "subtotal": 2019.88,
+  "tax_rate_percent": 8.25,
+  "tax_amount": 166.64,
+  "shipping": 45.00,
+  "total_due": 2231.52,
+  "payment_terms": "Net 30",
+  "accepted_payment_methods": ["ACH", "Check", "Wire Transfer"]
+}

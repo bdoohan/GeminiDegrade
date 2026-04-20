@@ -1,0 +1,204 @@
+{
+  "facility": {
+    "name": "RIVERSIDE GENERAL HOSPITAL",
+    "address": "2200 Medical Center Pkwy, Sacramento, CA 95819",
+    "npi": "1234567890"
+  },
+  "patient": {
+    "last_name": "NAKAMURA",
+    "first_name": "Hiroshi",
+    "middle_initial": "T",
+    "mrn": "RGH-00114782",
+    "date_of_birth": "1958-09-12",
+    "age": 65,
+    "sex": "M"
+  },
+  "encounter": {
+    "admission_datetime": "2024-03-03T14:37",
+    "discharge_datetime": "2024-03-09T10:15",
+    "length_of_stay_days": 6,
+    "admit_type": "Emergency",
+    "admit_source": "Emergency Department"
+  },
+  "attending_physician": {
+    "name": "Dr. Priya Venkataraman, MD",
+    "npi": "9876543210",
+    "department": "Cardiology / ICU Stepdown"
+  },
+  "consulting_physicians": [
+    {
+      "name": "Dr. Marcus O. Brecht, MD",
+      "specialty": "Nephrology",
+      "npi": "1122334455"
+    },
+    {
+      "name": "Dr. Fatima Al-Rashid, MD",
+      "specialty": "Endocrinology",
+      "npi": "9988776655"
+    },
+    {
+      "name": "Dr. Len Kowalczyk, PA-C",
+      "specialty": "Hospitalist",
+      "npi": "3344556677"
+    }
+  ],
+  "insurance": {
+    "primary_carrier": "Medicare Part A & B",
+    "primary_member_id": "1EG4-TE5-MK72",
+    "secondary_carrier": "AARP Supplemental (UnitedHealth)",
+    "secondary_member_id": "UHC-AARP-8847231",
+    "authorization_number": "AUTH-2024-039 14"
+  },
+  "admission_diagnosis": "Acute-onset chest pain with radiation to left arm, diaphoresis, SOB. Initial ECG showed ST-elevation in leads II, III, aVF — concern for Inferior STEMI.",
+  "discharge_diagnoses": [
+    {
+      "rank": 1,
+      "description": "Inferior STEMI",
+      "icd10_code": "I21.1",
+      "is_primary": true,
+      "status": "Resolved post-PCI"
+    },
+    {
+      "rank": 2,
+      "description": "Type 2 Diabetes Mellitus with Hyperglycemia",
+      "icd10_code": "E11.65",
+      "is_primary": false,
+      "status": "Chronic, managed"
+    },
+    {
+      "rank": 3,
+      "description": "Stage 3a CKD",
+      "icd10_code": "N18.3",
+      "is_primary": false,
+      "status": "Chronic, stable at discharge"
+    },
+    {
+      "rank": 4,
+      "description": "Hypertensive Heart Disease",
+      "icd10_code": "I11.9",
+      "is_primary": false,
+      "status": "Chronic"
+    },
+    {
+      "rank": 5,
+      "description": "Acute Kidney Injury",
+      "icd10_code": "N17.9",
+      "is_primary": false,
+      "status": "Resolved"
+    },
+    {
+      "rank": 6,
+      "description": "Hospital-Acquired Hyponatremia",
+      "icd10_code": "E87.1",
+      "is_primary": false,
+      "status": "Resolved"
+    },
+    {
+      "rank": 7,
+      "description": "Dyslipidemia",
+      "icd10_code": "E78.5",
+      "is_primary": false,
+      "status": "Chronic"
+    }
+  ],
+  "procedures": [
+    {
+      "date": "2024-03-03",
+      "description": "Emergency Coronary Angiography",
+      "cpt_code": "93454",
+      "performed_by": "Dr. Venkataraman"
+    },
+    {
+      "date": "2024-03-03",
+      "description": "Percutaneous Coronary Intervention (Drug-Eluting Stent x1, RCA)",
+      "cpt_code": "92928",
+      "performed_by": "Dr. Venkataraman"
+    },
+    {
+      "date": "2024-03-04",
+      "description": "Echocardiogram (TTE)",
+      "cpt_code": "93306",
+      "performed_by": "Tech: M. Santos"
+    },
+    {
+      "date": "2024-03-05",
+      "description": "Renal Ultrasound",
+      "cpt_code": "76770",
+      "performed_by": "Tech: D. Lim"
+    },
+    {
+      "date": "2024-03-07",
+      "description": "Fasting Lipid Panel",
+      "cpt_code": "80061",
+      "performed_by": "Lab: RGH Central"
+    },
+    {
+      "date": "2024-03-08",
+      "description": "HbA1c",
+      "cpt_code": "83036",
+      "performed_by": "Lab: RGH Central"
+    }
+  ],
+  "lab_results": [
+    { "test_name": "WBC", "value": 7.8, "unit": "x10^3/uL", "reference_range": "4.5-11.0", "flag": "" },
+    { "test_name": "Hemoglobin", "value": 11.2, "unit": "g/dL", "reference_range": "13.5-17.5", "flag": "L" },
+    { "test_name": "Hematocrit", "value": 33.8, "unit": "%", "reference_range": "41-53", "flag": "L" },
+    { "test_name": "Platelets", "value": 218, "unit": "x10^3/uL", "reference_range": "150-400", "flag": "" },
+    { "test_name": "Sodium (Na)", "value": 138, "unit": "mEq/L", "reference_range": "136-145", "flag": "" },
+    { "test_name": "Potassium (K)", "value": 4.1, "unit": "mEq/L", "reference_range": "3.5-5.0", "flag": "" },
+    { "test_name": "Creatinine", "value": 1.4, "unit": "mg/dL", "reference_range": "0.7-1.2", "flag": "H" },
+    { "test_name": "BUN", "value": 22, "unit": "mg/dL", "reference_range": "7-25", "flag": "" },
+    { "test_name": "eGFR", "value": 52, "unit": "mL/min", "reference_range": ">60", "flag": "L" },
+    { "test_name": "Glucose (fasting)", "value": 142, "unit": "mg/dL", "reference_range": "70-99", "flag": "H" },
+    { "test_name": "HbA1c", "value": 8.9, "unit": "%", "reference_range": "<5.7", "flag": "H" },
+    { "test_name": "LDL", "value": 138, "unit": "mg/dL", "reference_range": "<100", "flag": "H" },
+    { "test_name": "HDL", "value": 38, "unit": "mg/dL", "reference_range": ">40", "flag": "L" },
+    { "test_name": "Triglycerides", "value": 214, "unit": "mg/dL", "reference_range": "<150", "flag": "H" },
+    { "test_name": "Troponin-I (peak)", "value": 48.7, "unit": "ng/mL", "reference_range": "<0.04", "flag": "H" },
+    { "test_name": "BNP", "value": 412, "unit": "pg/mL", "reference_range": "<100", "flag": "H" }
+  ],
+  "vitals_at_discharge": {
+    "recorded_datetime": "2024-03-09T08:30",
+    "blood_pressure": "122/74 mmHg",
+    "heart_rate_bpm": 58,
+    "respiratory_rate": 16,
+    "temperature_f": 98.4,
+    "o2_sat_percent": 97,
+    "weight_kg": 84.3,
+    "height_cm": 176,
+    "bmi": 27.2
+  },
+  "discharge_medications": [
+    { "number": 1,  "drug_name": "Aspirin",                "dose": "81 mg",  "route": "PO", "frequency": "Daily",        "refills": -1, "notes": "Take with food. Do not stop" },
+    { "number": 2,  "drug_name": "Ticagrelor (Brilinta)",  "dose": "90 mg",  "route": "PO", "frequency": "Twice daily",  "refills": 3,  "notes": "DO NOT STOP — stent" },
+    { "number": 3,  "drug_name": "Metoprolol Succinate",   "dose": "25 mg",  "route": "PO", "frequency": "Daily",        "refills": 3,  "notes": "Take in AM" },
+    { "number": 4,  "drug_name": "Lisinopril",             "dose": "5 mg",   "route": "PO", "frequency": "Daily",        "refills": 3,  "notes": "Monitor BP" },
+    { "number": 5,  "drug_name": "Atorvastatin",           "dose": "80 mg",  "route": "PO", "frequency": "Daily (PM)",   "refills": 3,  "notes": "Avoid grapefruit" },
+    { "number": 6,  "drug_name": "Isosorbide Mononitrate", "dose": "30 mg",  "route": "PO", "frequency": "Daily",        "refills": 1,  "notes": "Hold if SBP < 90" },
+    { "number": 7,  "drug_name": "Furosemide",             "dose": "20 mg",  "route": "PO", "frequency": "Daily x7d",    "refills": 0,  "notes": "Weigh daily; call if +3 lbs" },
+    { "number": 8,  "drug_name": "Insulin Glargine",       "dose": "18 U",   "route": "SC", "frequency": "Nightly",      "refills": 3,  "notes": "Refrigerate" },
+    { "number": 9,  "drug_name": "Metformin",              "dose": "500 mg", "route": "PO", "frequency": "Twice daily",  "refills": 3,  "notes": "Hold if Cr > 1.8 or contrast" },
+    { "number": 10, "drug_name": "Omeprazole",             "dose": "20 mg",  "route": "PO", "frequency": "Daily",        "refills": 2,  "notes": "GI protection with dual AP Rx" }
+  ],
+  "follow_up_appointments": [
+    { "provider": "Dr. Priya Venkataraman", "specialty": "Cardiology",     "datetime": "2024-03-21T09:00", "location": "RGH Heart Ctr Ste 4" },
+    { "provider": "Dr. Marcus Brecht",      "specialty": "Nephrology",      "datetime": "2024-03-26T11:00", "location": "RGH Renal Clinic" },
+    { "provider": "Dr. Fatima Al-Rashid",   "specialty": "Endocrinology",   "datetime": "2024-04-02T14:30", "location": "RGH Diabetes Ctr" },
+    { "provider": "Dr. J. Okonkwo",         "specialty": "Primary Care",    "datetime": "2024-03-18T10:00", "location": "412 Oak St Clinic" }
+  ],
+  "discharge_instructions": {
+    "activity": "Cardiac rehab referral placed. No lifting > 10 lbs x4 wks. Resume light walking; avoid strenuous activity until cleared by cardiology.",
+    "diet": "Cardiac / ADA diet. Low sodium (< 2g/day). Limit saturated fat. Carbohydrate consistent diet (~45g/meal).",
+    "wound_care": "Right radial access site (wrist). Keep dry x48h. Watch for hematoma, pulsatile swelling — go to ED if noted.",
+    "return_to_ed_symptoms": "Chest pain, SOB, left arm pain, palpitations, syncope, or weight gain > 3 lbs overnight.",
+    "monitoring": "Daily blood pressure and weight log. Blood glucose 2x/day.",
+    "smoking_status": "Non-smoker. Counseled on secondhand smoke avoidance."
+  },
+  "documentation": {
+    "attending_signature": "Dr. Priya Venkataraman, MD",
+    "signature_date": "2024-03-09",
+    "dictated_by": "Dr. Venkataraman",
+    "reviewed_by": "Dr. Kowalczyk",
+    "transcribed_datetime": "2024-03-09T11:42"
+  }
+}

@@ -1,0 +1,76 @@
+SOFTWARE SERVlCES AGREEMENT
+
+This Software Services Agreement ("Agreement") is entered into as of February 28, 2024
+("Effective Date") by and between:
+
+  SERVICE PROVlDER:
+  NovaTech Solutions LLC
+  78 Commerce Square, Floor 1 2
+  San Francisco, CA  941 05
+  EIN:  47-33291 04
+
+  CLIENT:
+  Meridian Retail Group, lnc.
+  2200 Harbor Blvd, Building C
+  Costa Mesa, CA  92627
+  EIN:  82-1 1 49357
+
+(each a "Party", collectively the "Parties")
+
+1. SCOPE OF SERVlCES
+
+   NovaTech shall provide the following services to Client:
+   (a) Implementation and configuration of the NovaTech lnventory Platform v4.x
+   (b) Data migration from Client's legacy SAP system
+   (c) User training (up to 40 hours)
+   (d) 12 months post-go-live technical support (Tier 2)
+
+2. TERM
+
+   This Agreement commences on the Effective Date and continues for a period of
+   twenty-four (24) months, terminating on February 27, 2026, unless earlier
+   terminated pursuant to Section 8.
+
+3. FEES AND PAYMENT
+
+   3.1 lmplementation Fee:  $85,000.00 (one-time), due within 30 days of signing.
+   3.2 Annual License Fee:   $36,000.00 per year, billed quarterly ($9,000.00/quarter).
+   3.3 Support Retainer:     $4,500.00 per month, invoiced monthly in arrears.
+   3.4 Late Payment:         1 .5% per month on outstanding balances past 30 days.
+   3.5 Currency:             All amounts in USD.
+
+4. lNTELLECTUAL PROPERTY
+
+   All pre-existing IP of NovaTech remains the exclusive property of NovaTech.
+   Client retains ownership of all Client Data.  Work product created specifically
+   for Client under this Agreement shall be considered work-for-hire.
+
+5. CONFlDENTlALlTY
+
+   Each Party agrees to maintain the confidentiality of the other Party's
+   Confidential lnformation for a period of five (5) years following disclosure.
+
+6. LlMlTATlON OF LlABlLlTY
+
+   NovaTech's aggregate liability shall not exceed the total fees paid by Client
+   in the twelve (12) months immediately preceding the claim.
+
+7. GOVERNlNG LAW
+
+   This Agreement shall be governed by the laws of the State of California.
+   Disputes shall be resolved by binding arbitration in San Francisco, CA.
+
+8. TERMlNATlON
+
+   Either Party may terminate with ninety (90) days written notice.
+   Client may terminate for cause with ten (10) days notice if material breach
+   is not cured.
+
+lN WlTNESS WHEREOF, the Parties have executed this Agreement as of the date first written.
+
+NOVATECH SOLUTlONS LLC              MERlDlAN RETAlL GROUP, lNC.
+
+By: ____________________________    By: ____________________________
+Name:  James T. Whitmore            Name:  Patricia L. Seo
+Title: CEO                          Title: CFO
+Date:  02 / 28 / 2024               Date:  02 / 28 / 2024

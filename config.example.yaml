@@ -1,0 +1,26 @@
+gemini:
+  api_key: "YOUR_GEMINI_API_KEY_HERE"
+
+  # Fill in the actual model IDs from Google AI Studio / Vertex AI
+  models:
+    - label: "gemini-3.0"               # human-readable label used in reports
+      model_id: "gemini-3-pro-preview"
+      pricing:
+        input_per_million_tokens: 0.075
+        output_per_million_tokens: 0.30
+
+    - label: "gemini-3.1"
+      model_id: "gemini-3.1-pro-preview"
+      pricing:
+        input_per_million_tokens: 0.15
+        output_per_million_tokens: 0.60
+
+eval:
+  runs_per_test: 3          # number of times to run each test case per model (latency averaged)
+  timeout_seconds: 60
+  output_dir: "results"
+
+extraction:
+  temperature: 1.0
+  max_output_tokens: 10000
+  thinking_budget: 5000      # caps thinking tokens on gemini-3.x models

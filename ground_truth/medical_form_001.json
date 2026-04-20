@@ -1,0 +1,86 @@
+{
+  "patient": {
+    "last_name": "DELGADO",
+    "first_name": "Marco A.",
+    "date_of_birth": "1981-07-22",
+    "sex": "M",
+    "ssn_last4": "7741",
+    "mrn": "RHN-0039284",
+    "address": "890 Pinecrest Ave., Apt 2B, Portland, OR 97215",
+    "phone_home": "(503) 555-0072",
+    "phone_cell": "(503) 555-1948",
+    "emergency_contact": {
+      "name": "Elena Delgado",
+      "phone": "(503) 555-2201",
+      "relationship": "Spouse"
+    }
+  },
+  "insurance": {
+    "primary_carrier": "BlueCross BlueShield of Oregon",
+    "member_id": "BCBS-OR-441872-M",
+    "group_number": "GRP-77234",
+    "policy_holder": "Marco A. Delgado",
+    "relation_to_patient": "Self",
+    "effective_date": "2024-01-01",
+    "copay_usd": 30
+  },
+  "chief_complaint": "Persistent lower back pain (6/10), onset approx. 3 weeks ago. Occasional numbness radiating to left leg. No trauma reported.",
+  "current_conditions": [
+    "Type 2 Diabetes",
+    "Hypertension",
+    "Hyperlipidemia"
+  ],
+  "previous_surgeries": [
+    {
+      "procedure": "Appendectomy",
+      "year": 2003,
+      "facility": "St. Vincent Hospital"
+    }
+  ],
+  "allergies": [
+    {
+      "substance": "Penicillin",
+      "reaction": "Hives"
+    },
+    {
+      "substance": "Sulfa drugs",
+      "reaction": "Rash"
+    }
+  ],
+  "medications": [
+    {
+      "name": "Metformin",
+      "dose": "500mg",
+      "frequency": "twice daily"
+    },
+    {
+      "name": "Lisinopril",
+      "dose": "10mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Atorvastatin",
+      "dose": "20mg",
+      "frequency": "once daily"
+    },
+    {
+      "name": "Ibuprofen",
+      "dose": "400mg",
+      "frequency": "as needed"
+    }
+  ],
+  "vitals": {
+    "recorded_datetime": "2024-03-14T09:22:00",
+    "blood_pressure": "138/88 mmHg",
+    "pulse_bpm": 72,
+    "temperature_f": 98.6,
+    "weight_lbs": 214,
+    "height": "5'11\"",
+    "o2_sat_percent": 98
+  },
+  "provider": {
+    "name": "Dr. Anita Kapoor, MD",
+    "npi": "1234567890",
+    "department": "Internal Medicine - Outpatient"
+  }
+}

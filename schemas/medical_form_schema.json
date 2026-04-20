@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PatientIntakeForm",
+  "type": "object",
+  "properties": {
+    "patient": {
+      "type": "object",
+      "properties": {
+        "last_name": { "type": "string" },
+        "first_name": { "type": "string" },
+        "date_of_birth": { "type": "string", "description": "ISO 8601: YYYY-MM-DD" },
+        "sex": { "type": "string", "enum": ["M", "F", "Other"] },
+        "ssn_last4": { "type": "string" },
+        "mrn": { "type": "string" },
+        "address": { "type": "string" },
+        "phone_home": { "type": "string" },
+        "phone_cell": { "type": "string" },
+        "emergency_contact": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "phone": { "type": "string" },
+            "relationship": { "type": "string" }
+          }
+        }
+      }
+    },
+    "insurance": {
+      "type": "object",
+      "properties": {
+        "primary_carrier": { "type": "string" },
+        "member_id": { "type": "string" },
+        "group_number": { "type": "string" },
+        "policy_holder": { "type": "string" },
+        "relation_to_patient": { "type": "string" },
+        "effective_date": { "type": "string", "description": "ISO 8601: YYYY-MM-DD" },
+        "copay_usd": { "type": "number" }
+      }
+    },
+    "chief_complaint": { "type": "string" },
+    "current_conditions": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "previous_surgeries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "procedure": { "type": "string" },
+          "year": { "type": "integer" },
+          "facility": { "type": "string" }
+        }
+      }
+    },
+    "allergies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "substance": { "type": "string" },
+          "reaction": { "type": "string" }
+        }
+      }
+    },
+    "medications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "dose": { "type": "string" },
+          "frequency": { "type": "string" }
+        }
+      }
+    },
+    "vitals": {
+      "type": "object",
+      "properties": {
+        "recorded_datetime": { "type": "string" },
+        "blood_pressure": { "type": "string" },
+        "pulse_bpm": { "type": "integer" },
+        "temperature_f": { "type": "number" },
+        "weight_lbs": { "type": "number" },
+        "height": { "type": "string" },
+        "o2_sat_percent": { "type": "integer" }
+      }
+    },
+    "provider": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "npi": { "type": "string" },
+        "department": { "type": "string" }
+      }
+    }
+  },
+  "required": ["patient", "insurance", "chief_complaint", "medications", "allergies"]
+}

@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HospitalDischargeSummary",
+  "type": "object",
+  "properties": {
+    "facility": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "address": { "type": "string" },
+        "npi": { "type": "string" }
+      }
+    },
+    "patient": {
+      "type": "object",
+      "properties": {
+        "last_name": { "type": "string" },
+        "first_name": { "type": "string" },
+        "middle_initial": { "type": "string" },
+        "mrn": { "type": "string" },
+        "date_of_birth": { "type": "string", "description": "YYYY-MM-DD" },
+        "age": { "type": "integer" },
+        "sex": { "type": "string", "enum": ["M", "F", "Other"] }
+      }
+    },
+    "encounter": {
+      "type": "object",
+      "properties": {
+        "admission_datetime": { "type": "string", "description": "ISO 8601: YYYY-MM-DDTHH:MM" },
+        "discharge_datetime": { "type": "string", "description": "ISO 8601: YYYY-MM-DDTHH:MM" },
+        "length_of_stay_days": { "type": "integer" },
+        "admit_type": { "type": "string" },
+        "admit_source": { "type": "string" }
+      }
+    },
+    "attending_physician": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "npi": { "type": "string" },
+        "department": { "type": "string" }
+      }
+    },
+    "consulting_physicians": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "specialty": { "type": "string" },
+          "npi": { "type": "string" }
+        }
+      }
+    },
+    "insurance": {
+      "type": "object",
+      "properties": {
+        "primary_carrier": { "type": "string" },
+        "primary_member_id": { "type": "string" },
+        "secondary_carrier": { "type": "string" },
+        "secondary_member_id": { "type": "string" },
+        "authorization_number": { "type": "string" }
+      }
+    },
+    "admission_diagnosis": { "type": "string" },
+    "discharge_diagnoses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rank": { "type": "integer" },
+          "description": { "type": "string" },
+          "icd10_code": { "type": "string" },
+          "is_primary": { "type": "boolean" },
+          "status": { "type": "string" }
+        }
+      }
+    },
+    "procedures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": { "type": "string", "description": "YYYY-MM-DD" },
+          "description": { "type": "string" },
+          "cpt_code": { "type": "string" },
+          "performed_by": { "type": "string" }
+        }
+      }
+    },
+    "lab_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "test_name": { "type": "string" },
+          "value": { "type": "number" },
+          "unit": { "type": "string" },
+          "reference_range": { "type": "string" },
+          "flag": { "type": "string", "description": "H=High, L=Low, or empty string if normal" }
+        }
+      }
+    },
+    "vitals_at_discharge": {
+      "type": "object",
+      "properties": {
+        "recorded_datetime": { "type": "string", "description": "ISO 8601: YYYY-MM-DDTHH:MM" },
+        "blood_pressure": { "type": "string" },
+        "heart_rate_bpm": { "type": "integer" },
+        "respiratory_rate": { "type": "integer" },
+        "temperature_f": { "type": "number" },
+        "o2_sat_percent": { "type": "integer" },
+        "weight_kg": { "type": "number" },
+        "height_cm": { "type": "number" },
+        "bmi": { "type": "number" }
+      }
+    },
+    "discharge_medications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": { "type": "integer" },
+          "drug_name": { "type": "string" },
+          "dose": { "type": "string" },
+          "route": { "type": "string" },
+          "frequency": { "type": "string" },
+          "refills": { "type": "integer", "description": "Use -1 if PRN/as-needed" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "follow_up_appointments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "provider": { "type": "string" },
+          "specialty": { "type": "string" },
+          "datetime": { "type": "string", "description": "ISO 8601: YYYY-MM-DDTHH:MM" },
+          "location": { "type": "string" }
+        }
+      }
+    },
+    "discharge_instructions": {
+      "type": "object",
+      "properties": {
+        "activity": { "type": "string" },
+        "diet": { "type": "string" },
+        "wound_care": { "type": "string" },
+        "return_to_ed_symptoms": { "type": "string" },
+        "monitoring": { "type": "string" },
+        "smoking_status": { "type": "string" }
+      }
+    },
+    "documentation": {
+      "type": "object",
+      "properties": {
+        "attending_signature": { "type": "string" },
+        "signature_date": { "type": "string", "description": "YYYY-MM-DD" },
+        "dictated_by": { "type": "string" },
+        "reviewed_by": { "type": "string" },
+        "transcribed_datetime": { "type": "string" }
+      }
+    }
+  },
+  "required": [
+    "patient", "encounter", "attending_physician",
+    "discharge_diagnoses", "procedures", "lab_results",
+    "discharge_medications", "follow_up_appointments"
+  ]
+}

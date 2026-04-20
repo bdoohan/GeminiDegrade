@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Invoice",
+  "type": "object",
+  "properties": {
+    "vendor_name": { "type": "string" },
+    "vendor_address": { "type": "string" },
+    "invoice_number": { "type": "string" },
+    "invoice_date": { "type": "string", "description": "ISO 8601 format: YYYY-MM-DD" },
+    "due_date": { "type": "string", "description": "ISO 8601 format: YYYY-MM-DD" },
+    "po_number": { "type": "string" },
+    "bill_to": {
+      "type": "object",
+      "properties": {
+        "company": { "type": "string" },
+        "address": { "type": "string" },
+        "contact_name": { "type": "string" }
+      }
+    },
+    "line_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sku": { "type": "string" },
+          "description": { "type": "string" },
+          "quantity": { "type": "number" },
+          "unit_price": { "type": "number" },
+          "amount": { "type": "number" }
+        }
+      }
+    },
+    "subtotal": { "type": "number" },
+    "tax_rate_percent": { "type": "number" },
+    "tax_amount": { "type": "number" },
+    "shipping": { "type": "number" },
+    "total_due": { "type": "number" },
+    "payment_terms": { "type": "string" },
+    "accepted_payment_methods": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["vendor_name", "invoice_number", "invoice_date", "due_date", "line_items", "total_due"]
+}
