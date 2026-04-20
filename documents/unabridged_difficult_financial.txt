@@ -1,0 +1,387 @@
+================================================================================
+         SYNDICATED COMMERClAL LOAN PACKAGE — CONF|DENTIAL
+         UNABRlDGED TERM SHEET & CREDlT AGREEl\/lENT SUMMARY
+================================================================================
+
+TRANSACTlON NAME:   Meridian lndustries lnc. — Senior Secured Credit Facilities
+PACKAGE REF#:       SYN-2024-0047-MERlD
+ARRANGER:           Westbridge Capital Markets LLC
+DATE OF PACKAGE:    January 31 , 2024
+STATUS:             FlNAL — EXECUTED
+
+--------------------------------------------------------------------------------
+SECT|ON 1 : BORROWER lNFORMAT|ON
+--------------------------------------------------------------------------------
+
+Legal Name:         Meridian lndustries, lnc.
+Jurisdiction:       Delaware corporation (lncorporation # 7741 1 -DE)
+Principal Office:   3300 lndustrial Pkwy, Suite 1 900
+                    Houston, TX  770 1 9
+EIN:                47 - 33291 04
+NAICS Code:         325 1 88  (Specialty Chemical Manufacturing)
+Fiscal Year End:    December 31
+Auditor:            Deloitte & Touche LLP (engagement partner: R. Hashimoto)
+Legal Counsel:      Skadden, Arps, Slate, Meagher & Flom LLP
+
+PARENT / GUARANTORS:
+  (a)  Meridian Holdings Group, LLC  (Parent Guarantor)
+       EIN: 82-1 1 49357    Jurisdiction: Delaware LLC
+  (b)  Meridian Chemical Subs|d|ary Corp.  (Subsidiary Guarantor)
+       EIN: 61 -77843 1 2    Jurisdiction: Texas corporation
+  (c)  Meridian Logistics Partners LP  (Subsidiary Guarantor)
+       EIN: 33-9928471      Jurisdiction: Delaware LP
+
+BORROW ER S|GNATORIES:
+  CFO:      Patricia L. Seo         Sign:  _______________   Date: 01/31/2024
+  CEO:      James T. Whitmore       Sign:  _______________   Date: 01/31/2024
+  Gen Cnsl: Margaret K. Osei, Esq.  Sign:  _______________   Date: 01/31/2024
+
+--------------------------------------------------------------------------------
+SECT|ON 2:  DEAL STRUCTURE — CRED|T FAC|L|T|ES OVERV|EW
+--------------------------------------------------------------------------------
+
+Total Committed Amount:    $ 475,000,000.00
+
+  TRANCHE A  —  Term Loan A (TLA)
+    Commitment:        $ 1 75,000,000
+    Maturity:          5 years from Closing (January 31 , 2029)
+    Amortization:      Quarterly; 5% Year 1 -2, 10% Year 3-4, 50% Year 5 (Bullet)
+    lnterest Rate:     SOFR + 2.25%  (Floor: 0.50%)
+    lnterest Period:   1 -month or 3-month SOFR (Borrower election)
+    Orig. Fee:         1 .00% of TLA commitment (paid at close)
+
+  TRANCHE B  —  Term Loan B (TLB)
+    Commitment:        $ 200,000,000
+    Maturity:          7 years from Closing (January 31, 2031 )
+    Amortization:      1 % per annum (quarterly); bullet at maturity
+    lnterest Rate:     SOFR + 3.50%  (Floor: 1 .00%)
+    lnterest Period:   3-month SOFR only
+    Orig. Fee:         2.00% of TLB commitment (paid at close)
+
+  TRANCHE C  —  Revolving Credit Facility (RCF)
+    Commitment:        $ 1 00,000,000
+    Maturity:          5 years from Closing (January 31 , 2029)
+    Drawn Rate:        SOFR + 2.00%  (Floor: 0.50%)
+    Undrawn Fee:       0.375% per annum on undrawn balance
+    Letter of Credit:  Up to $25,000,000 sublimit; LC fee 2.00% p.a.
+    Swing Line:        Up to $1 0,000,000; Base Rate + 1 .25%
+    Orig. Fee:         0.50% of RCF commitment (paid at close)
+
+CLOSING DATE:         January 31 , 2024
+ADMlNlSTRATlVE AGENT: Westbridge Capital Markets LLC
+  ABA:  02 1 000089     Acct: 44870033 1 2    Ref: SYN-2024-0047
+
+--------------------------------------------------------------------------------
+SECT|ON 3:  SYNDlCATE LENDER ALLOCATlONS
+--------------------------------------------------------------------------------
+
+  lnstitution                          TLA ($M)   TLB ($M)   RCF ($M)   Total ($M)
+  ------------------------------------ ---------- ---------- ---------- ----------
+  Westbridge Capital Markets LLC        43.75      50.00      25.00      1 1 8.75
+  Pacific Northern Bank, N.A.           35.00      40.00      20.00       95.00
+  Great Lakes lnvestment Corp           26.25      30.00      1 5.00       71 .25
+  Northstar Credit Partners LP          26.25      30.00      1 5.00       71 .25
+  Southfield lnstitutional Fund ll      1 7.50      25.00      1 2.50       55.00
+  Cornerstone Assurance Group           1 7.50      1 5.00      7.50        40.00
+  Halcyon Bridge Mezzanine Fund          8.75      1 0.00      5.00        23.75
+  TOTAL                                175.00     200.00     100.00      475.00
+
+  LENDER CONTACT DETAI LS:
+  Westbridge Capital Markets LLC
+    Contact:  Robert A. Finch, SVP Syndications
+    Email:    r.finch@westbridgecap.com
+    Wire lnstructions: ABA 02 1 000089 / Acct 9934 1 1 2200
+
+  Pacific Northern Bank, N.A.
+    Contact:  Diana Chu, Director — Leveraged Finance
+    ABA:  1 2 1 000248    Acct: 7761 4400 1 2
+
+  Great Lakes lnvestment Corp
+    Contact:  Thomas Gruber, Portfolio Manager
+    ABA:  07 1 000013    Acct: 881 200447 7
+
+  Northstar Credit Partners LP
+    Contact:  Ananya Krishnamurthy, Managing Director
+    ABA:  0260096 1 0    Acct: 55902 1 7834
+
+  Southfield lnstitutional Fund ll
+    Contact:  Emil Novotny, lnvestment Officer
+    ABA:  0440000024    Acct: 33 1 0948822
+
+  Cornerstone Assurance Group
+    Contact:  Brenda Okafor, Credit Analyst
+    ABA:  02 1 200339    Acct: 77200 1 1 433
+
+  Halcyon Bridge Mezzanine Fund
+    Contact:  Yuki Tanaka, Fund Manager
+    ABA:  0260096 1 0    Acct: 2240088 1 29
+
+--------------------------------------------------------------------------------
+SECT|ON 4:  FlNANClAL COVENANTS   <<<  CR|T|CAL — TESTED QUARTERLY  >>>
+--------------------------------------------------------------------------------
+
+  [NOTE TO REVIEWER: The following covenant thresholds were negotiated and
+  finalized on January 28, 2024. Any discrepancy with prior drafts should be
+  resolved in favor of the values stated here.]
+
+  4.1  LEVERAGE COVENANTs (Net Debt / Adjusted EBITDA)
+
+       Test Period End     Maximum Leverage Ratio
+       -----------------  ----------------------
+       March 31 , 2024     6.50x
+       June 30, 2024       6.25x
+       September 30, 2024  6.00x
+       December 31 , 2024  5.75x
+       March 31 , 2025     5.50x
+       June 30, 2025       5.25x
+       September 30, 2025  5.00x
+       December 31 , 2025  4.75x
+       Thereafter          4.50x
+
+  4.2  lNTEREST COVERAGE (Adjusted EBlTDA / Cash lnterest Expense)
+
+       Test Period End     Minimum Coverage Ratio
+       -----------------  ----------------------
+       March 31 , 2024     2.00x
+       June 30, 2024       2.1 5x
+       September 30, 2024  2.25x
+       December 31 , 2024  2.50x
+       Thereafter          2.75x
+
+  4.3  MlNlMUM LlQUlDlTY
+       At all times: Unrestricted cash + undrawn RCF availability >= $25,000,000
+
+  4.4  CAPlTAL EXPENDlTURE LlMlT
+       Maximum annual capex (excluding acquisitions):  $35,000,000
+       Carry-forward of unused capex: up to 50% of prior year unused amount
+
+  4.5  EXCESS CASH FLOW SWEEP
+       Annual ECF sweep: 75% if Leverage > 4.0x; 50% if Leverage 3.0x–4.0x;
+       25% if Leverage < 3.0x. Calculated within 1 20 days of fiscal year end.
+
+  4.6  DEFlNlTlONS (abbreviated):
+       "Adjusted EBITDA" = Net lncome + lnterest + Taxes + D&A
+                           + Non-cash charges + One-time restructuring (capped $1 0M/yr)
+                           + Pro-forma synergies (capped $1 5M/yr, 1 2-month look-forward)
+       "Net Debt"         = Total Funded Debt – Unrestricted Cash
+       "Cash lnterest"    = Actual cash interest paid (excludes PIK, non-cash)
+
+--------------------------------------------------------------------------------
+SECT|ON 5:  COLLATERAL SCHEDULE
+--------------------------------------------------------------------------------
+
+  All obligations secured by first-priority perfected security interest in:
+
+  5.1  REAL PROPERTY (Mortgaged Assets)
+
+       Property lD   Address                               Appraised Value   LTV
+       -----------   ------------------------------------  ---------------   ---
+       RP-001        3300 lndustrial Pkwy, Houston TX       $ 28,500,000     55%
+       RP-002        1 42 Refinery Rd, Baytown TX            $ 41 ,200,000   48%
+       RP-003        77 Chemical Dr, Beaumont TX             $ 1 9,800,000   61 %
+       RP-004        500 Port Access Blvd, Corpus Christi TX $ 33,600,000    52%
+       RP-005        88 lndustrial Loop, Lake Charles LA     $ 22, 1 00,000  58%
+                                                             ---------------
+                     TOTAL REAL PROPERTY VALUE:             $145,200,000
+
+  5.2  EQUlPMENT & MACHlNERY (Selected)
+
+       Asset lD    Description                         NBV ($000s)   Yr Acquired
+       ----------  ----------------------------------  -----------   -----------
+       EQ-1 001    Distillation Column Unit #1          $ 8,400       201 8
+       EQ-1 002    Distillation Column Unit #2          $ 7,900       201 9
+       EQ-1 003    Reactor Vessel Array (x4)            $ 1 2,300     2020
+       EQ-2001     Centrifugal Compressor System        $ 4,600       201 7
+       EQ-2002     Heat Exchanger Network (1 2 units)   $ 3,800       2021
+       EQ-3001     Automated Packaging Line A           $ 2,200       2022
+       EQ-3002     Automated Packaging Line B           $ 2,1 00      2022
+       EQ-4001     Fleet Vehicles (1 8 units)           $ 1 ,800       Various
+                                                        -----------
+                   TOTAL EQUlPMENT NBV:                 $43,100,000
+
+  5.3  RECElVABLES & lNVENTORY
+       Eligible accounts receivable (< 90 days):  ~$62,000,000 (rolling average)
+       Eligible inventory (finished goods):        ~$28,500,000 (rolling average)
+       Borrowing base certificate: monthly, due 1 5th of following month
+
+  5.4  lNTELLECTUAL PROPERTY
+       Patents: 1 4 issued US patents (Schedule A-7 attached)
+       Trademarks: 8 registered marks (Schedule A-8 attached)
+
+--------------------------------------------------------------------------------
+SECT|ON 6:  FEE SCHEDULE  <<<  ALL FEES lN USD  >>>
+--------------------------------------------------------------------------------
+
+  Fee Type                           Amount / Rate              Due / Frequency
+  ---------------------------------- -------------------------- ------------------
+  Arrangement Fee                    $2,375,000 (0.50% of $475M) At closing
+  Upfront Fee — TLA Lenders          1 .00% of TLA allocation    At closing
+  Upfront Fee — TLB Lenders          2.00% of TLB allocation     At closing
+  Upfront Fee — RCF Lenders          0.50% of RCF allocation     At closing
+  Admin Agent Fee                    $200,000 per annum          Annually, Jan 31
+  Syndication Agent Fee              $1 50,000 (one-time)        At closing
+  Documentation Fee                  $75,000                     At closing
+  LC lssuance Fee                    2.00% p.a. on LC face amt  Quarterly
+  LC Fronting Fee                    0.1 25% p.a. on LC face     Quarterly
+  Commitment Fee (RCF undrawn)       0.375% p.a.                 Quarterly
+  Swing Line Fee                     Base Rate + 1.25%           As drawn
+  Amendment Fee (if applicable)      0.1 0% of affected tranche  Per amendment
+  Waiver Fee (if applicable)         $25,000 minimum             Per waiver
+  Prepayment Premium — TLB           Year 1 : 2%; Year 2: 1%;    On prepayment
+                                     Year 3+: None
+  Excess Cash Flow Fee               None                        N/A
+
+--------------------------------------------------------------------------------
+SECT|ON 7:  AMORT|ZAT|ON SCHEDULE — TERM LOAN A  ($175,000,000)
+--------------------------------------------------------------------------------
+
+  Payment Date      Principal ($)    Cumulative Paid ($)   Balance ($)
+  ----------------  ---------------  --------------------  ---------------
+  Apr 30, 2024       2, 1 87,500       2, 1 87,500           1 72,8 1 2,500
+  Jul 31 , 2024       2,1 87,500        4,375,000            1 70,625,000
+  Oct 31 , 2024       2, 1 87,500       6,562,500            1 68,437,500
+  Jan 31 , 2025       2,1 87,500        8,750,000            1 66,250,000
+  Apr 30, 2025       2, 1 87,500       1 0,937,500           1 64,062,500
+  Jul 31 , 2025       2,1 87,500       1 3, 1 25,000          1 61 ,875,000
+  Oct 31 , 2025       2,1 87,500       1 5,3 1 2,500          1 59,687,500
+  Jan 31 , 2026       2,1 87,500       1 7,500,000           1 57,500,000
+  Apr 30, 2026       4,375,000        21 ,875,000            1 53, 1 25,000
+  Jul 31 , 2026       4,375,000        26,250,000            1 48,750,000
+  Oct 31 , 2026       4,375,000        30,625,000            1 44,375,000
+  Jan 31 , 2027       4,375,000        35,000,000            1 40,000,000
+  Apr 30, 2027       4,375,000        39,375,000            1 35,625,000
+  Jul 31 , 2027       4,375,000        43,750,000            1 31 ,250,000
+  Oct 31 , 2027       4,375,000        48, 1 25,000           1 26,875,000
+  Jan 31 , 2028       4,375,000        52,500,000            1 22,500,000
+  Apr 30, 2028       4,375,000        56,875,000             1 1 8, 1 25,000
+  Jul 31 , 2028       4,375,000        61 ,250,000            1 1 3,750,000
+  Oct 31 , 2028       4,375,000        65,625,000             1 09,375,000
+  Jan 31 , 2029      1 09,375,000      1 75,000,000                    0
+
+--------------------------------------------------------------------------------
+SECT|ON 8:  AMORT|ZAT|ON SCHEDULE — TERM LOAN B  ($200,000,000)
+--------------------------------------------------------------------------------
+
+  Payment Date      Principal ($)    Cumulative Paid ($)   Balance ($)
+  ----------------  ---------------  --------------------  ---------------
+  Apr 30, 2024         500,000          500,000            1 99,500,000
+  Jul 31 , 2024         500,000         1 ,000,000          1 99,000,000
+  Oct 31 , 2024         500,000         1 ,500,000          1 98,500,000
+  Jan 31 , 2025         500,000         2,000,000           1 98,000,000
+  Apr 30, 2025         500,000          2,500,000           1 97,500,000
+  Jul 31 , 2025         500,000         3,000,000           1 97,000,000
+  Oct 31 , 2025         500,000         3,500,000           1 96,500,000
+  Jan 31 , 2026         500,000         4,000,000           1 96,000,000
+  Apr 30, 2026         500,000          4,500,000           1 95,500,000
+  Jul 31 , 2026         500,000         5,000,000           1 95,000,000
+  Oct 31 , 2026         500,000         5,500,000           1 94,500,000
+  Jan 31 , 2027         500,000         6,000,000           1 94,000,000
+  Apr 30, 2027         500,000          6,500,000           1 93,500,000
+  Jul 31 , 2027         500,000         7,000,000           1 93,000,000
+  Oct 31 , 2027         500,000         7,500,000           1 92,500,000
+  Jan 31 , 2028         500,000         8,000,000           1 92,000,000
+  Apr 30, 2028         500,000          8,500,000           1 91 ,500,000
+  Jul 31 , 2028         500,000         9,000,000           1 91 ,000,000
+  Oct 31 , 2028         500,000         9,500,000           1 90,500,000
+  Jan 31 , 2029         500,000        1 0,000,000           1 90,000,000
+  Apr 30, 2029         500,000         1 0,500,000           1 89,500,000
+  Jul 31 , 2029         500,000        1 1 ,000,000           1 89,000,000
+  Oct 31 , 2029         500,000        1 1 ,500,000           1 88,500,000
+  Jan 31 , 2030         500,000        1 2,000,000           1 88,000,000
+  Apr 30, 2030         500,000         1 2,500,000           1 87,500,000
+  Jul 31 , 2030         500,000        1 3,000,000           1 87,000,000
+  Oct 31 , 2030         500,000        1 3,500,000           1 86,500,000
+  Jan 31 , 2031      1 86,500,000      200,000,000                   0
+
+--------------------------------------------------------------------------------
+SECT|ON 9:  REPRESENTAT|ONS, WARRANT|ES & COVENANTS (SUMMARY)
+--------------------------------------------------------------------------------
+
+  9.1  AFF|RMAT|VE COVENANTS (selected):
+       (a) Deliver audited financials within 90 days of FYE
+       (b) Deliver unaudited quarterly financials within 45 days of quarter end
+       (c) Compliance certificate with each financial delivery
+       (d) Maintain lnsurance: Property (replacement value), GL ($50M min),
+           D&O ($20M min), Workers Comp (statutory)
+       (e) Maintain ERISA compliance; fund pension obligations
+       (f) Provide notice of Material Adverse Effect within 5 Business Days
+       (g) Maintain lnterest Rate Hedge: minimum 50% of Term Loan exposure
+           hedged for at least 3 years from Closing
+
+  9.2  NEGAT|VE COVENANTS (selected):
+       (a) No additional lndebtedness > $1 0,000,000 without consent
+       (b) No Liens on Collateral (subject to Permitted Liens basket)
+       (c) No Restricted Payments (dividends, buybacks) if Leverage > 3.5x
+       (d) No Asset Sales > $5,000,000 individually or $1 5,000,000 aggregate/yr
+           without consent (subject to 1 00% reinvestment or prepayment)
+       (e) No Acquisitions > $25,000,000 without Lender consent
+       (f) No change of business or jurisdiction without consent
+       (g) No amendment to material contracts without consent
+
+  9.3  EVENTS OF DEFAULT (selected):
+       (a) Payment default (3 Business Day grace period)
+       (b) Covenant breach (30-day cure period for financial covenants)
+       (c) Cross-default to other lndebtedness > $1 0,000,000
+       (d) Bankruptcy / lnsolvency
+       (e) Change of Control
+       (f) Material judgment > $1 5,000,000 unsatisfied for 30 days
+       (g) lnvalidity of security interest
+
+  9.4  MATER|AL ADVERsE EFFECT DEF|N|T|ON:
+       Any event, condition, or circumstance that has or could reasonably be
+       expected to have a material adverse effect on: (a) business, assets,
+       liabilities, financial condition, or results of operations of the
+       Borrower and its Subsidiaries, taken as a whole; (b) the ability of any
+       Credit Party to perform its payment obligations; or (c) the rights of the
+       Lenders under the Loan Documents.
+
+--------------------------------------------------------------------------------
+SECT|ON 10:  CLOS|NG COND|T|ONS & CLOS|NG DATE
+--------------------------------------------------------------------------------
+
+  10.1  CLOS|NG DATE:  January 31 , 2024
+
+  10.2  COND|T|ONS PRECEDENT:
+        (a) Executed Loan Documents (Credit Agreement, Security Agreement,
+            Pledge Agreement, Guaranty, lnterCreditor Agreement)
+        (b) UCC Financing Statements filed in Delaware and Texas
+        (c) Title insurance for all mortgaged properties (ALTA Form)
+        (d) Flood certifications for all real property collateral
+        (e) Evidence of insurance (certificates + endorsements naming Agent)
+        (f) Solvency Certificate signed by CFO
+        (g) Legal opinion from Skadden, Arps
+        (h) Financial model (base case + downside) approved by Agent
+        (i) Funding of lnitial Draw: $175M TLA + $200M TLB (full draw at close)
+        (j) No Material Adverse Effect since September 30, 2023
+
+  10.3  lNlTlAL DlSBURSEMENT:
+        TLA Proceeds:    $ 1 75,000,000  → Operating Acct ABA 021 000089 / Acct 3301 44887 7
+        TLB Proceeds:    $ 200,000,000  → Same as above
+        Net of Fees:     $ 368,250,000  (after $6,750,000 total upfront fees)
+
+--------------------------------------------------------------------------------
+SECT|ON 11 :  AGENT BANK & GOVERNING LAW
+--------------------------------------------------------------------------------
+
+  Adm|n|strat|ve Agent:   Westbridge Capital Markets LLC
+  Agent Address:          1 2 Financial Square, Floor 22, New York, NY 1 0005
+  Agent Contact:          Robert A. Finch  |  (212) 555-0 1 99
+  Agent Email:            agency@westbridgecap.com
+  Agent ABA:              02 1 000089
+  Agent Account:          9934 1 1 2200
+  Governing Law:          State of New York
+  Jurisdiction:           Southern District of New York (SDNY)
+  Jury Trial Waiver:      Yes — both parties waive right to jury trial
+
+  EXECUTED as of January 31 , 2024.
+
+  WESTBR|DGE CAP|TAL MARKETS LLC          MER|D|AN |NDUSTR|ES, |NC.
+
+  By: _____________________________        By:  ____________________________
+  Name:   Robert A. F|nch                  Name:  James T. Whitmore
+  T|tle:  Senio r V|ce Pres|dent           T|tle:  Ch|ef Execut|ve Off|cer
+  Date:   01 / 31 / 2024                   Date:   01 / 31 / 2024
+
+================================================================================
+END OF DOCUMENT   |   Package Ref: SYN-2024-0047-MER|D   |   Page 1 of 1
+================================================================================
